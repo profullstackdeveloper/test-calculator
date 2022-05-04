@@ -42,6 +42,7 @@ export default function App() {
       .catch((err) => {
         if (err.response.status === 400) {
           setIsError(true);
+          setValues({ sum: 0, average: 0, stdev: 0 });
         }
       });
   };
