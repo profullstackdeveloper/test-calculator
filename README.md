@@ -39,6 +39,6 @@ It works on default port 3000.
 
 Server made by using Node.js and express.
 
-It works on port 5000
+It works on port 5000.
 
 There are two Restful api such as "api/auth/signin" and "api/calculate".
