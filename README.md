@@ -1,6 +1,8 @@
 ## First Step (Unit test for server)
 
-Before start running, you need to install Node.js.
+Before start running, you need to install Node.js and install node packages for node command.
+
+    npm install
 
 Next, you have to install node packages for server.
 
@@ -39,6 +41,6 @@ It works on default port 3000.
 
 Server made by using Node.js and express.
 
-It works on port 5000.
+It works on port 5000
 
 There are two Restful api such as "api/auth/signin" and "api/calculate".
