@@ -6,6 +6,8 @@ const cors = require("cors");
 const helmet = require("helmet");
 const bodyParser = require("body-parser");
 
+
+// create app
 app = express();
 
 app.use(bodyParser.json());
