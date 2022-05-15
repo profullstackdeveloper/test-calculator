@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server-install":"cd ./server && npm install",  
     "test": "cd ./server && npm run test",
     "start": "concurrently \"cd ./server && npm run server\"  \"cd ./client && npm run start\""
+
   },
   "author": "",
   "license": "ISC",
