@@ -9,4 +9,5 @@ COPY ./ /usr/app
 
 RUN npm install
 RUN cd server/ && npm install
-RUN cd server/ && npm start
+RUN cd server/ && npm start &
+
