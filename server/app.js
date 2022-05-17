@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/api", calculatorRoute);
 app.use("/api", authRoute);
 
-const port = process.env.PORT | 8080
+const port = process.env.PORT || 8080;
 
 app.listen(port, (err) => {
   if (err) {
