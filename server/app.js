@@ -17,10 +17,12 @@ app.use(cors());
 app.use("/api", calculatorRoute);
 app.use("/api", authRoute);
 
-app.listen(5000, (err) => {
+const port = process.env.PORT | 8080
+
+app.listen(port, (err) => {
   if (err) {
     console.log(err);
   }
-  console.info("Server started on port %s.", 5000);
+  console.info("Server started on port %s.", port);
 });
 module.exports = app;
