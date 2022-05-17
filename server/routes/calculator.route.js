@@ -5,6 +5,6 @@ var authCtrl = require("../controllers/auth.controller");
 
 router
   .route("/calculate")
-  .post(authCtrl.requireSignin, calculatorCtrl.calculator);
+  .post(calculatorCtrl.calculator);
 
 module.exports = router;
