@@ -7,6 +7,8 @@ router
   .route("/calculate")
   .post(calculatorCtrl.calculator);
 
-
+router
+  .route("/test")
+  .post(calculatorCtrl.test);
 
 module.exports = router;
