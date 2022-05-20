@@ -21,3 +21,10 @@ module.exports.calculator = (req, res) => {
     stdev: stdev(numbers),
   });
 };
+
+
+module.exports.test = (req, res) => {
+res.status(200).json({
+    message:"this is test url" 
+  });
+}
